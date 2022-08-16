@@ -6,16 +6,16 @@ import java.util.Scanner;
 
 public class multiplicação {
   public static void main(String[] args) throws Exception {
-    Scanner sc = new Scanner(System.in);
+    try (Scanner sc = new Scanner(System.in)) {
+      System.out.println("Valor 1:");
+      int valor1 = sc.nextInt();
 
-    System.out.println("Valor 1:");
-    int valor1 = sc.nextInt();
+      System.out.println("Valor 2:");
+      int valor2 = sc.nextInt();
 
-    System.out.println("Valor 2:");
-    int valor2 = sc.nextInt();
+      int multiplicacao = valor1 * valor2;
 
-    int multiplicacao = valor1 * valor2;
-
-    System.out.println("O valor da Multiplicação é: " + multiplicacao);
+      System.out.println("O valor da Multiplicação é: " + multiplicacao);
+    }
   }
 }
