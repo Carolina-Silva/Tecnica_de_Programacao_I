@@ -11,7 +11,7 @@ public class FforC {
     System.out.println("Informe a temperatura em Fahrenheit:");
     float fahrenheit = sc.nextInt();
 
-    float celsius = (fahrenheit - 32)*(5/9);
+    float celsius = (fahrenheit - 32)*5/9;
     
     System.out.println("A temperatura em Celsius é de : " + celsius + " graus");
   }
