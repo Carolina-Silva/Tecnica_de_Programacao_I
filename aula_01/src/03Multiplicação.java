@@ -1,10 +1,9 @@
-// Nome: Carolina Nascimento Silva
+//Nome: Carolina Nascimento Silva
 //Ra: 
 //Objetivo: receba 2 números e apresente a multiplicação dos dois números
-
 import java.util.Scanner;
 
-public class multiplicação {
+public class Main {
   public static void main(String[] args) throws Exception {
     try (Scanner sc = new Scanner(System.in)) {
       System.out.println("Valor 1:");
@@ -15,7 +14,7 @@ public class multiplicação {
 
       int multiplicacao = valor1 * valor2;
 
-      System.out.println("O valor da Multiplicação é: " + multiplicacao);
+      System.out.println("O valor da Multiplicacao e:  " + multiplicacao);
     }
   }
-}
+} 

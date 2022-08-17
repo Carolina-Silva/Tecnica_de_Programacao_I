@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Volume {
+public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
@@ -12,7 +11,7 @@ public class Volume {
         
         double volume = 3.14159 * (raio*raio) * altura;
         
-        System.out.println("o Volume da lata de oleo e: " + volume);
+        System.out.printf("o Volume da lata de oleo e: %.2fcm³\n", volume);
         
         
     }

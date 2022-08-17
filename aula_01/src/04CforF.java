@@ -4,8 +4,8 @@
 
 import java.util.Scanner;
 
-public class CforF {
-  public static void main(String[] args) throws Exception {
+public class Main {
+  public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
     System.out.println("Informe a temperatura em Celsius:");
@@ -13,6 +13,6 @@ public class CforF {
 
     float fahrenheit = (9* celsius +160)/5;
     
-    System.out.println("A temperatura em Fahrenheit é de : " + fahrenheit + " graus");
+    System.out.println("A temperatura em Fahrenheit e de : " + fahrenheit + " graus");
   }
 }
