@@ -1,6 +1,6 @@
 //Nome: Carolina Nascimento Silva
 //Ra: 2171392211001
-//Objetivo: receba 2 números e apresente a multiplicação dos dois números
+//Objetivo: programa recebe data de nascimento do usuario e retorna quantos dias ele já viveu. 
 import java.util.Scanner;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
