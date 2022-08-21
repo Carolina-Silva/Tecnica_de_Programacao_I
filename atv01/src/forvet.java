@@ -72,3 +72,24 @@ public class Main {
         }
     }
 }
+
+
+//Matriz le matrix 3x3 e apresenta 
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int m[][] = new  int[3][3];
+        for (int i = 0; i < m.length; i++){
+            for (int j = 0; j < m[i].length; j++){
+                m[i][j] = sc.nextInt();
+            }
+        }
+        for (int i = 0; i < m.length; i++){
+            for (int j = 0; j < m[i].length; j++){
+                System.out.printf(m[i][j] + "\t"); //\t tab tabulação
+            }
+            System.out.println("");
+        }
+    }
+}
