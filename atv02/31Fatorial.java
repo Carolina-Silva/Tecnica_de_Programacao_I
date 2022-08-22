@@ -1,3 +1,5 @@
+// Faça um programa na Linguagem Java que que receba um número e
+// mostre o fatorial desse número
 import java.util.Scanner;
 
 public class Main {
