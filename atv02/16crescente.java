@@ -15,9 +15,7 @@ public class Main {
         Arrays.sort(vet);
         System.out.println("Saida em ordem crescente:");
         for (i=0; i < vet.length; i++) {
-            System.out.printf(" d%\n", vet[i]);
+            System.out.println(vet[i]);
         }
     }
 }
-//ERROR FORMAT JAVA NA SAIDA DE DADOS
-

@@ -9,11 +9,13 @@ public class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Informe a temperatura em Celsius:");
-    float celsius = sc.nextInt();
-
-    float fahrenheit = (9* celsius +160)/5;
-    
-    System.out.println("A temperatura em Fahrenheit e de : " + fahrenheit + " graus");
+    float celsius,fahrenheit;
+    System.out.println("Temperatura de Celsius para Fahrenheit:");
+    celsius = 10;
+    for (int i=0; i < 100; i= i + 10) {
+      fahrenheit = (9* celsius +160)/5;
+      System.out.printf("Celsius: %.2f Fahrenheit: %.2f\n",celsius, fahrenheit);
+      celsius = celsius + 10;
+    }  
   }
 }

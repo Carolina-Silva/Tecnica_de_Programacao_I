@@ -9,11 +9,11 @@ public class Main {
 
     System.out.println("Informe o numero que deseja calcular o fatorial");
     n = sc.nextInt();
-
+    x=n;
+    
     while (x > 1){
-      n = n *(x-1); x--;
-   };
-    System.out.printf("o fatorial de %f fatorial é: %f\n", n,x );
-
+      n = n *(x-1); x--; 
+    };
+    System.out.printf("O do número digitado é:" ,n );
   }
 }

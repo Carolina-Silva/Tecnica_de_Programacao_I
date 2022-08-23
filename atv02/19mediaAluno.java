@@ -4,6 +4,17 @@
 // aluno não foi aprovado, indicar uma mensagem informando esta condição.
 // Apresentar junto das mensagens o valor da média do aluno para qualquer
 // condição.
-public class 19mediaAluno {
-  
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        for (int i=0; i < ; i= i + 10) {
+          
+          System.out.printf("");
+          
+        } 
+    }
 }
