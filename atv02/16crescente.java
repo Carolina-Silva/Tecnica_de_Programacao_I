@@ -14,8 +14,10 @@ public class Main {
         }
         Arrays.sort(vet);
         System.out.println("Saida em ordem crescente:");
-        for (i=0; i < vet.length; i++) {
+        for (int i=0; i < vet.length; i++) {
             System.out.println(vet[i]);
         }
     }
 }
+
+///foiii

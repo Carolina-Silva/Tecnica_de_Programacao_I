@@ -5,13 +5,19 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int vet [] = new int [3];
-        int i = 0;
+        int vet [] = new int [5];
+        int i = 0, maior, menor;
         System.out.println("Entre com os valores:");
         while (i< vet.length){
             vet[i++] = sc.nextInt();
+
+            maior = vet[i];
+            menor = vet[i];
+
+            
+
+
         }
-        Arrays.sort(vet);
         System.out.printf("Maior número: %d",vet[2]);   
     }
 }

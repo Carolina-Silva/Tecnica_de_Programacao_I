@@ -8,12 +8,14 @@ public class Main {
     double n, x;
 
     System.out.println("Informe o numero que deseja calcular o fatorial");
-    n = sc.nextInt();
+    n = sc.nextDouble();
     x=n;
     
     while (x > 1){
       n = n *(x-1); x--; 
     };
-    System.out.printf("O do número digitado é:" ,n );
+    System.out.printf("O do número digitado é: %.2f" ,n );
   }
 }
+
+///foiii

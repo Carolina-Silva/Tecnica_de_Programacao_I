@@ -93,3 +93,27 @@ class Main {
         }
     }
 }
+
+//cria matriz com diferente numero de colunas
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[][] p = new int[3][];
+        //cria matriz com diferente numero de colunas
+        for(int i = 0; i < 3; i++){
+            p[i] = new int[i+1];
+            for (int j = 0; j < p[i].length; j++){
+                p[i][j] = sc.nextInt();
+            }
+        }
+        
+        for (int i = 0; i < p.length; i++){
+            for (int j = 0; j < p[i].length; j++){
+                System.out.printf(p[i][j] + "\t"); //\t tab tabulacao
+            }
+            System.out.println("");
+        }
+    }
+}
