@@ -1,5 +1,6 @@
-// . Faça um programa na Linguagem Java para apresentar o total da soma
-// obtida dos cem primeiros números inteiros ( 1 + 2 + 3 + 4 + .... 98+ 99+ 100)
+//Nome: Carolina Nascimento Silva
+//Ra: 2171392211001
+//Objetivo: Faça um programa na Linguagem Java para apresentar o total da soma obtida dos cem primeiros números inteiros ( 1 + 2 + 3 + 4 + .... 98+ 99+ 100)
 public class Main {
     public static void main(String[] args) {
         int i, x;
@@ -14,7 +15,3 @@ public class Main {
     }
   
 }
-
-
-
-// foiii

@@ -1,7 +1,6 @@
-// . Faça um programa na Linguagem Java que apresente os valores de
-// conversão de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a
-// contagem em 10 graus Celsius e finalizando em 100 graus Celsius. O
-// programa deve apresentar os valores das duas temperaturas.
+//Nome: Carolina Nascimento Silva
+//Ra: 2171392211001
+//Objetivo: Faça um programa na Linguagem Java que apresente os valores de conversão de graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a contagem em 10 graus Celsius e finalizando em 100 graus Celsius. O programa deve apresentar os valores das duas temperaturas.
 
 import java.util.Scanner;
 
@@ -14,10 +13,8 @@ public class Main {
     celsius = 10;
     for (int i=0; i < 100; i= i + 10) {
       fahrenheit = (9* celsius +160)/5;
-      System.out.printf("Celsius: %.2f Fahrenheit: %.2f\n",celsius, fahrenheit);
+      System.out.printf("Celsius: %.1f° Fahrenheit: %.1f°\n",celsius, fahrenheit);
       celsius = celsius + 10;
     }  
   }
 }
-
-//foii

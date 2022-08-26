@@ -1,5 +1,6 @@
-// Faça um programa na Linguagem Java que que receba um número e
-// mostre o fatorial desse número
+//Nome: Carolina Nascimento Silva
+//Ra: 2171392211001
+//Objetivo: Faça um programa na Linguagem Java que que receba um número e mostre o fatorial desse número
 import java.util.Scanner;
 
 public class Main {
@@ -12,10 +13,9 @@ public class Main {
     x=n;
     
     while (x > 1){
-      n = n *(x-1); x--; 
+      n = n *(x-1);
+      x--; 
     };
     System.out.printf("O do número digitado é: %.2f" ,n );
   }
 }
-
-///foiii
