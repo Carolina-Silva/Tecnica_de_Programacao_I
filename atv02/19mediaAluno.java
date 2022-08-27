@@ -18,13 +18,15 @@ public class Main {
         System.out.println("Informe a 4º nota:");
         n4 = sc.nextInt();
 
-        media = (n1+n2+n3+n4)/4;
-        if (media >= 7) {
-          System.out.printf("Média = %d aluno foi aprovado", media);
+        if (((n1+n2+n3+n4)/4) >= 7) {
+          System.out.println("Média = " + (n1+n2+n3+n4)/4 + " aluno foi aprovado");
           
         } else{
-          System.out.printf("Média = %d aluno foi reprovado", media);
+          System.out.println("Média = " + (n1+n2+n3+n4)/4 + " aluno foi reprovado");
 
         }
     }
 }
+
+
+//foiii
