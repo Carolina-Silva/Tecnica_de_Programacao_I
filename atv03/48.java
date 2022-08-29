@@ -5,8 +5,25 @@
 // – Mostrar as duas coleções
 // Obs. Não efetuar a leitura de 10 elementos
 
-// package atv03;
 
-public class 48 {
-  
+import java.util.Scanner;
+import java.util.Random;
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+         Random ran = new Random();
+        int vetA[] = new int[10];
+        int vetB[] = new int[10];
+        for (int i = 0; i < 10; i++){
+            vetA[i] = ran.nextInt(10);
+        }
+        for (int i = 0; i < 10; i++){
+            vetB[i] = vetA[i] * 2;
+        }
+
+        System.out.println("VetA x VetB:");
+        for (int i=0; i < vet.length; i++) {
+            System.out.printf("%d X 2 = %d\n", vetA[i],vetB[i]);
+        }
+    }
 }
