@@ -23,28 +23,30 @@ public class Main {
     switch (cd) {
       case 100:
         valor = qt * 1.20;
-        System.out.printf("Valor a pagar: R$ %.2f", valor);
+        System.out.printf("Valor a pagar: R$ %.2f\n", valor);
        break;
       case 101:
         valor = qt * 1.30;
-        System.out.printf("Valor a pagar: R$ %.2f", valor);
+        System.out.printf("Valor a pagar: R$ %.2f\n", valor);
+        break;
       case 102:
         valor = qt * 1.50;
-        System.out.printf("Valor a pagar: R$ %.2f", valor);
+        System.out.printf("Valor a pagar: R$ %.2f\n", valor);
+        break;
       case 103:
         valor = qt * 1.20;
-        System.out.printf("Valor a pagar: R$ %.2f", valor);
+        System.out.printf("Valor a pagar: R$ %.2f\n", valor);
+        break;
       case 104:
         valor = qt * 1.30;
-        System.out.printf("Valor a pagar: R$ %.2f", valor);
+        System.out.printf("Valor a pagar: R$ %.2f\n", valor);
+        break;
       case 105:
         valor = qt * 1.00;
-        System.out.printf("Valor a pagar: R$ %.2f", valor);
-
+        System.out.printf("Valor a pagar: R$ %.2f\n", valor);
+        break;
       default:
         System.out.println("Código invalido");
     }
   } 
 }
-
-// codigo invalido junto com case 105
