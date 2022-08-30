@@ -15,17 +15,20 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int vetA[] = new int[5];
         int vetB[] = new int[5];
+        System.out.println("Informe 5 numeros para calcular o fatorial:");
         for (int i = 0; i < 5; i++){
             vetA[i] = sc.nextInt();
         }
         
-        int x = vet[i];
-        for (int i = 0; i < 5; i++){
+        for (int i=0; i < vetA.length; i++) {
+            int x = vetA[i];
+            int f = x;
             while (x > 1){
-                vetB[i] = vetA[i] *(x-1);
-                x--; 
-            };
-        }
+                f = f * (x - 1);
+                x--;
+            }
+            vetB[i] = f;
+        } 
 
         System.out.println("VetA! = VetB:");
         for (int i=0; i < vetA.length; i++) {
@@ -33,4 +36,5 @@ public class Main {
         }
     }
 }
-//erro
+
+//foi
