@@ -1,4 +1,6 @@
-// . Criar uma coleção “A” na linguagem Javacom 10 elementos
+//Nome: Carolina Nascimento Silva
+//Ra: 2171392211001
+//Objetivo: Criar uma coleção “A” na linguagem Javacom 10 elementos
 // – Inserir os elementos de 1 a 10 na coleção
 // – Criar uma outra coleção B que conterá o elemento da coleção A
 // multiplicado por 2
