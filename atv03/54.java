@@ -18,16 +18,16 @@ public class Main {
         System.out.println("Informe 5 numeros para calcular o fatorial:");
         for (int i = 0; i < 5; i++){
             vetA[i] = sc.nextInt();
+            vetB[i] = vetA[i];
         }
         
-        for (int i=0; i < vetA.length; i++) {
-            int x = vetA[i];
-            int f = x;
-            while (x > 1){
-                f = f * (x - 1);
-                x--;
+        for (int i=0; i < vetB.length; i++) {
+            int f = 1;
+            for (int j = 1; j<= vetB[i]; j++){
+                f = f * j;
             }
-            vetB[i] = f;
+            vetB[i]=f;
+           
         } 
 
         System.out.println("VetA! = VetB:");
