@@ -18,7 +18,7 @@ class Main{
     Funcionario func = new Funcionario();
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Informe o nome:");
+    System.out.println("Informe o nome do Funcionário:");
     String nm =sc.nextLine();
     func.nome= nm;
 
@@ -34,6 +34,7 @@ class Main{
     double porcentagem  =sc.nextDouble();
     func.aumentarSalario(porcentagem);
 
+    System.out.println("Dados do funcionário depois dos dencontos e aumento de salário");
     System.out.printf("NOME: %s\n SALÁRIO LIQUIDO: %.2f", func.nome, func.salarioLiquido());
   }
 }
