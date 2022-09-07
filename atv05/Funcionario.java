@@ -7,7 +7,7 @@ public class Retangulo{
 
   }
 
-  public double aumentarSalario(double porcentagem){
-    
+  public void aumentarSalario(double porcentagem){
+
   }
 }
