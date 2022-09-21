@@ -1,3 +1,6 @@
+//Nome: Carolina Nascimento Silva
+//Ra: 2171392211001
+//Objetivo: Criar classe Conta Corrente com atributos: nome, sexo idade, n° da conta, se é conjunta ou não e o saldo. Deve ter getters e setters e metodos de sacar ver saldo depositar
 public class ContaCorrente{
     private String nmCorrentista;
     private String sexo;
