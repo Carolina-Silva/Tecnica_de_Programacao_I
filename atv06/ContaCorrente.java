@@ -3,7 +3,7 @@ public class ContaCorrente{
     private String sexo;
     private int idade;
     private String nrConta;
-    private boolean contaConjunta;
+    private String contaConjunta;
     private double saldo;
 
     public String getNmCorrentista(){
@@ -34,10 +34,10 @@ public class ContaCorrente{
         nrConta = numeroConta;
     }
 
-    public boolean getContaConjunta() {
+    public String getContaConjunta() {
         return contaConjunta;
     }
-    public void setContaConjunta(boolean contConju){
+    public void setContaConjunta(String contConju){
         contaConjunta = contConju;
     }
 
@@ -63,9 +63,39 @@ public class ContaCorrente{
     public void depositar(double vlrDeposito){
         saldo = saldo + vlrDeposito;
     }
+}
+import java.util.Scanner;
+public class TestaConta{
+    public static void  main(String[] args){
+        Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args){
-        
+        ContaCorrente  c1 = new ContaCorrente();
+        ContaCorrente  c2 = new ContaCorrente();
+        ContaCorrente  c3 = new ContaCorrente();
+
+        c1.setNmCorrentista("Fernando");
+        c1.setNrConta("1234");
+        c1.setContaConjunta("Nao");
+        c1.setSaldo(1500.00);
+        c1.setSexo("masculino");
+        c1.setIdade(29);
+
+        c2.setNmCorrentista("Maria");
+        c2.setNrConta("5321");
+        c2.setContaConjunta("Sim");
+        c2.setSaldo(530.31);
+        c2.setSexo("Feminino");
+        c2.setIdade(45);
+
+        c3.setNmCorrentista("Joao");
+        c3.setNrConta("9621");
+        c3.setContaConjunta("Sim");
+        c3.setSaldo(4325.12);
+        c3.setSexo("masculino");
+        c3.setIdade(54);
+
+        c1.verSaldo();
+        c2.verSaldo();
+        c3.verSaldo();
     }
-
 }
