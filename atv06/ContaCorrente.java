@@ -48,17 +48,24 @@ public class ContaCorrente{
         this.saldo = saldo;
     }
 
+    public void sacar(double vlr_saque){
+        if (vlr_saque > vlr_Saldo){
+            System.out.println("Saldo insufuciente");
+        }else{
+            vlr_Saldo = vlr_Saldo - vlr_saque;
+        } 
+    }
 
-    // public void Depositar(double vlr_Deposito){
-    //     vlr_Saldo = vlr_Saldo + vlr_Deposito;
-    // }
-    // public void Sacar(double vlr_saque){
-    //     if (vlr_saque > vlr_Saldo){
-    //         System.out.println("Saldo insufuciente");
-    //     }else{
-    //         vlr_Saldo = vlr_Saldo - vlr_saque;
-    //     } 
-    // }
+    public String verSaldo(){
+        System.out.printf("DADOS DA CONTA\nNOME: %d\nN°: %d\nCONTA CONJUNTA? %d\nSALDO: %f", nmCorrentista,numeroConta,contaConjunta,saldo);
+    }
 
+    public void depositar(double vlrDeposito){
+        saldo = saldo + vlrDeposito;
+    }
+
+    public static void main(String[] args){
+        
+    }
 
 }
