@@ -7,14 +7,14 @@ public class Aluno{
     private double nota2;
     private double nota3;
 
-    public void aluno(){
+    public Aluno(){
 
     }
-    public void aluno(String nome, double nota1, double nota2, double nota3){
+    public Aluno(String nome, double nota1, double nota2, double nota3){
         this.nome = nome;
         this.nota1 = nota1;
         this.nota2 = nota2;
-        this.nota2 = nota3;
+        this.nota3 = nota3;
     }
   
     public String getNome(){
@@ -68,20 +68,10 @@ public class Aluno{
     }
 }
  //teste para classe aluno
-public class Main{
+ public class Main{
     public static void main(String[] args){
-        Aluno a1 = new Aluno();
-        Aluno a2 = new Aluno();
-        
-        a1.setNome("João Pedro");
-        a1.setNota1(27.00);
-        a1.setNota2(31.00);
-        a1.setNota3(32.00);
-        
-        a2.setNome("João Pedro");
-        a2.setNota1(17.00);
-        a2.setNota2(20.00);
-        a2.setNota3(15.00);
+        Aluno a1 = new Aluno("João Pedro", 27.00, 31.00, 32.00);
+        Aluno a2 = new Aluno("João Pedro", 17.00, 20.00, 15.00);
 
         System.out.println(a1.toString());
         System.out.println(a2.toString());
