@@ -21,7 +21,7 @@ public class heranca_02 {
         public void setPlaca(String placa){
             this.placa = placa;
         }
-        //SET ANO STRING????
+        
 
         public int getAno(){
             return ano;
@@ -30,8 +30,8 @@ public class heranca_02 {
             this.ano = ano;
         }
 
-        public void exibirDados(){ //É VOID MESMO???
-            
+        public void exibirDados(){
+            System.out.printf("DADOS DO VEICULO: \nPlaca: %s\nAno: %d", placa, ano);
         }
     
     }
@@ -39,31 +39,42 @@ public class heranca_02 {
     public class Caminhao extends Veiculo{
         private int eixos;
     
-        public boolean autenticar(int senha){
-            if (this.senha == senha){
-                return true;
-            }
-            return false;
+        public Caminhao(String placa, int ano, int eixos){
+
+        }
+
+        public int getEixo(){
+            return eixos;
+        }
+        public void setEixo(int eixos){
+            this.eixos = eixos;
         }
 
         @Override
         public void exibirDados(){
+            System.out.printf("DADOS DO VEICULO: \nPlaca: %s\nAno: %d\n eixos: %d", placa, ano, eixos);
 
         }
     }
 
     public class Onibus extends Veiculo{
-        private int senha;
-    
-        public boolean autenticar(int senha){
-            if (this.senha == senha){
-                return true;
-            }
-            return false;
+        private int assentos;
+
+        public Onibus(String placa, int ano, int assentos){
+
         }
 
+        public int getAssentos(){
+            return assentos;
+        }
+        public void setAssentos(int assentos){
+            this.assentos = assentos;
+        }
+    
+        
         @Override
         public void exibirDados(){
+            System.out.printf("DADOS DO VEICULO: \nPlaca: %s\nAno: %d\n Assentos: %d", placa, ano, assentos);
 
         }
     }
