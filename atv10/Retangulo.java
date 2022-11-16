@@ -2,7 +2,7 @@
     private double lado1;
     private double lado2;
 
-    Retangulo(double lado1, double lado2, String cor){
+    public Retangulo(double lado1, double lado2, String cor){
         super(cor);
         this.lado1 = lado1;
         this.lado2 = lado2;

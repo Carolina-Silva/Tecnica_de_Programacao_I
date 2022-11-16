@@ -1,7 +1,7 @@
 class Circulo extends Figura{
     private double raio;
     
-    Circulo(double raio, String cor){
+    public Circulo(double raio, String cor){
         super(cor); //puxar de fugura
         this.raio = raio;
     }
