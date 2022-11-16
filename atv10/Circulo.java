@@ -1,7 +1,7 @@
 class Circulo extends Figura{
     private double raio;
     
-    public Circulo(double raio, String cor){
+    public Circulo(String cor, double raio){
         super(cor); //puxar de fugura
         this.raio = raio;
     }
@@ -13,6 +13,7 @@ class Circulo extends Figura{
         return raio;
     }
 
+    @Override
     public double area(){
         return Math.PI * raio * raio;
     }
@@ -24,7 +25,7 @@ class Circulo extends Figura{
     @Override
     public String toString() {
         String r = "";
-        r = "Raio: " +  raio + "\n"+"Diametro: " +  getDiametro() + "\n" + "Area: " + area();
+        r = "Raio: " +  raio + "\n"+"Diametro: " +  getDiametro() + "\n" + "Area: " + area()+ "\n" + "Cor: " + getCor();
         return r;
     }
 
