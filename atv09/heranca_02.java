@@ -9,10 +9,12 @@ public class heranca_02 {
         private int ano;
 
         public Veiculo(){
+            this("",0);
 
         }
         public Veiculo(String placa, int ano){
-            
+            this.placa = placa;
+            this.ano = ano;
         }
     
         public String getPlaca(){
@@ -40,7 +42,8 @@ public class heranca_02 {
         private int eixos;
     
         public Caminhao(String placa, int ano, int eixos){
-
+            super(placa, ano);
+            this.eixos = eixos;
         }
 
         public int getEixo(){
@@ -61,7 +64,8 @@ public class heranca_02 {
         private int assentos;
 
         public Onibus(String placa, int ano, int assentos){
-
+            super(placa, ano);
+            this.assentos = assentos;
         }
 
         public int getAssentos(){

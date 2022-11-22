@@ -1,4 +1,4 @@
- class Retangulo extends Figura{
+public class Retangulo extends Figura{
     private double lado1;
     private double lado2;
 

@@ -1,4 +1,4 @@
-class Circulo extends Figura{
+public class Circulo extends Figura{
     private double raio;
     
     public Circulo(String cor, double raio){
