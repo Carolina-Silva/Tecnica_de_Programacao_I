@@ -6,7 +6,7 @@ public class ContaCorrente{
     private String sexo;
     private int idade;
     private String nrConta;
-    private String contaConjunta;
+    private boolean flagContaConjunta;
     private double saldo;
 
     public String getNmCorrentista(){
@@ -37,11 +37,11 @@ public class ContaCorrente{
         nrConta = numeroConta;
     }
 
-    public String getContaConjunta() {
-        return contaConjunta;
+    public boolean getFlagContaConjunta() {
+        return flagContaConjunta;
     }
-    public void setContaConjunta(String contConju){
-        contaConjunta = contConju;
+    public boolean setFlagContaConjunta(String flag){
+        return this.flagContaConjunta = flag;
     }
 
     public double getSaldo(){
